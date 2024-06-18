@@ -1,0 +1,97 @@
+@import url(https://fonts.google.com/specimen/Figtree);
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-family: sans-serif;
+
+    
+}
+@font-face {
+    font-family: Figtree;
+    src: url(https://fonts.google.com/specimen/Figtree);
+}
+
+.card {
+    width:500px;
+    height: 587px;
+    background-color: white;
+    border-radius: 20px;
+    border: solid .125rem black;
+    position: relative;
+    top: 157px;
+    box-shadow: black 6px 6px;
+}
+
+.learning {
+    height: 20px;
+    width: 30px;
+    background-color: hsl(47, 88%, 63%);
+    border-style: solid 1.25rem hsl(47, 88%, 63%);
+    padding-right: 70px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    position: relative;
+    left: 54px ;
+    bottom: 41px;
+    
+
+}
+
+
+
+#learning {
+    display: flex;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: 'Figtree' url(https://fonts.google.com/specimen/Figtree);
+    position: relative;
+    top: 9px;
+    left: 14px;
+
+}
+
+.date {
+    font-style: normal;
+    color: grey;
+    position: relative;
+    left: 53px;
+    bottom: 37px;
+
+    
+}
+
+.htmlcss {
+    font-size: smaller;
+    position: relative;
+    bottom: 26px;
+    left: 51px;
+}
+
+.hover-link {
+    text-decoration: none;
+    color: black;
+}
+
+
+.hover-link:hover {
+    color: rgb(163, 163, 9);
+}
+
+#img {
+    
+    border-radius: 60px;
+    justify-content: center;
+    display: flex;
+    padding: 53px; 
+    
+
+
+}
+
+#description {
+    font-size: 16px;
+    color: grey;
+}
